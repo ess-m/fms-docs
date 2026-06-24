@@ -4,8 +4,8 @@
 |-----------------------|-----------|-------|-----------------|--------------------|
 | Phase increment table | `0x1713C` | 480   | 120 × u32       | `phaseIncLUT`      |
 | Theme palettes        | `0x1A378` | 16    | 2 × (4 × u16)   | `themes`           |
-| Accent colours (dark) | `0x1A388` | 16    | 8 × u16         | `accentsDark`      |
-| Accent colours (light)| `0x1A398` | 16    | 8 × u16         | `accentsLight`     |
+| Accent colors (dark)  | `0x1A388` | 16    | 8 × u16         | `accentsDark`      |
+| Accent colors (light) | `0x1A398` | 16    | 8 × u16         | `accentsLight`     |
 | Font glyphs           | `0x1A770` | 320   | 80 × u32        | `FONT_DATA`        |
 | Env curve table       | `0x1C928` | 2048  | 1024 × u16      | `curveLUT`         |
 | Sine table            | `0x1D128` | 4096  | 2048 × s16      | `sinLUT`           |
